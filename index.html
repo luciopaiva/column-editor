@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="third-party/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Column Editor</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <h1>Column Editor</h1>
+        <p>Simple tool for pasting in column mode. Place the caret at the desired position
+            and paste some multi-line text from your clipboard. It will seamlessly merge
+            with the existing lines, aligning the new input with the current column the
+            caret is at.
+        </p>
+        <hr/>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <textarea class="form-control" id="text" rows="30"></textarea>
+        </div>
+    </div>
+</div>
+
+<script src="dist/index.js"></script>
+
+</body>
+</html>
