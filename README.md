@@ -1,6 +1,6 @@
-# Column Paste
+# Column Editor
 
-http://luciopaiva.github.io/column-paste
+http://luciopaiva.github.io/column-editor
 
 Simple tool for pasting in column mode. Place the caret at the desired position
 and paste some multi-line text from your clipboard. It will seamlessly merge 
