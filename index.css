@@ -3,4 +3,8 @@
     width: 100%;
     font-family: Consolas, "Courier New", monospace;
     font-size: 9pt;
+
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: scroll;
 }
